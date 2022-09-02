@@ -1,6 +1,6 @@
 <template>
 
-    <h2>La mia prima app con Vue CLI!</h2>
+    <h1>La mia prima app con Vue CLI!</h1>
 
 </template>
 
@@ -11,8 +11,8 @@ export default {
 </script>
 
 <style>
-/* h2 {
-    border-top: 1px solid black;
-    padding-top: 1rem;
-} */
+h1 {
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+}
 </style>

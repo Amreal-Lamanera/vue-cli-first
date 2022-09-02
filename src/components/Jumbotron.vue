@@ -1,6 +1,6 @@
 <template>
     <div class="jumbo">
-        <h3>Hello Jumbo!</h3>
+        <h2>Hello Jumbo!</h2>
         <p>
             This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
             content or information.
@@ -19,8 +19,9 @@ export default {
 </script>
 
 <style lang="scss">
-h3 {
+h2 {
     text-align: center;
+    font-size: 2rem;
 }
 
 .jumbo {
@@ -30,8 +31,12 @@ h3 {
 }
 
 .jumbo p {
-    border-bottom: 1px solid grey;
-    padding: 1rem;
+    padding: 1.75rem 1rem;
+}
+
+p:first-of-type {
+    border-bottom: 1px solid rgb(174, 174, 174);
+    font-weight: bold;
 }
 
 .my_btn {
