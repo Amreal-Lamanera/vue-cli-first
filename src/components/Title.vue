@@ -11,8 +11,8 @@ export default {
 </script>
 
 <style>
-h2 {
+/* h2 {
     border-top: 1px solid black;
     padding-top: 1rem;
-}
+} */
 </style>
